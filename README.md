@@ -18,22 +18,22 @@ Data preprocessing involved checking for missing values and removing any incompl
 
 ### Visualization
 
-1. Glacier Mass Balance Over Time
+#### 1. Glacier Mass Balance Over Time
 
-![alt text](https://imgur.com/jNaAeCa)
+![alt text](https://i.imgur.com/jNaAeCa.png)
 
 This line plot illustrates the trend of glacier mass balance over the years, highlighting a general decline in mass balance.
 Year-over-Year Change in Glacier Mass Balance.
 
-2. Year-over-Year Change in Glacier Mass Balance
+#### 2. Year-over-Year Change in Glacier Mass Balance
 
-![alt text](https://imgur.com/ndkmbFU)
+![alt text](https://i.imgur.com/ndkmbFU.png)
 
 The bar plot reveals fluctuations in the annual mass balance of glaciers over time, showcasing both positive and negative changes. In recent years, there is a notable trend of declining mass balance, with several years exhibiting significantly negative changes, indicating accelerated glacier loss. These patterns suggest that climate factors are increasingly impacting glacier stability, leading to more pronounced annual losses. The variability in mass balance changes also reflects the influence of different climatic conditions, such as variations in temperature and precipitation. Overall, the plot underscores the urgency of addressing climate change, as the continued decline in glacier mass balance poses serious implications for ecosystems and water resources.
 
-3. Correlation Heatmap
+#### 3. Correlation Heatmap
 
-![alt text](https://imgur.com/5SdNZst)
+![alt text](https://i.imgur.com/5SdNZst.png)
 
 This heatmap reveals the relationships between different features in the dataset, showing strong correlations among certain variables that can influence mass balance. There is a strong negative correlation of -0.96 between the year and mean cumulative mass balance, indicating that as time progresses, glacier mass balance decreases. A positive correlation of 0.92 between the year and number of observations suggests that more recent years have more recorded observations. The mean cumulative mass balance positively correlates at 0.75 with annual change in mass balance, showing that years with higher balances also have greater annual changes. Conversely, a negative correlation of -0.78 between mean cumulative mass balance and the number of observations implies that higher balances correspond to fewer observations. Lastly, the annual change in mass balance negatively correlates at -0.68 with the year, indicating a trend of increasing glacier loss over time.
 
