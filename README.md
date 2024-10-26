@@ -1,14 +1,24 @@
 # Analysis of Glacier Mass Balance Over Time
 
-This project aims to analyze the changes in glacier mass balance over time, exploring the trends and patterns in the data to understand the impact of climate change on glaciers. By employing various regression models, we seek to forecast future mass balance changes based on historical data.
+This project investigates the changes in glacier mass balance over time to better understand the impacts of climate change on glacier dynamics. By analyzing historical data, we aim to uncover trends and patterns in glacier mass balance, utilizing various regression models to forecast future changes. The findings will contribute to a greater understanding of the implications of glacial changes on ecosystems and water resources.
 
 ## Dataset Description
 
-The dataset used in this project contains information on glacier mass balance measurements from various locations worldwide. It includes columns such as "Year" and "Mean cumulative mass balance," which represent the time frame of the data and the average mass balance of glaciers, respectively. This dataset is sourced from the Glacier Mass Balance Database.
+The dataset used in this project contains information on glacier mass balance measurements from various locations worldwide. It includes columns such as "Year" and "Mean cumulative mass balance," which represent the time frame of the data and the average mass balance of glaciers, respectively.
+
+**DATASET URL** - https://datahub.io/core/glacier-mass-balance (Average cumulative mass balance of reference Glaciers worldwide)
 
 ## Summary of Findings
 
-The analysis reveals a significant decline in glacier mass balance over the years, indicating a trend of melting and reduced ice accumulation. The models evaluated demonstrate varying degrees of accuracy in predicting mass balance changes, with linear regression showing a strong correlation with the observed data.
+The analysis indicates a marked decline in glacier mass balance over the years, revealing a clear trend of melting and reduced ice accumulation associated with climate change. Through various regression models, the project demonstrates differing levels of predictive accuracy in relation to mass balance changes.
+
+- **Linear Regression** showed a strong correlation with an R² value of 92.23%, effectively explaining a significant portion of the variance in the data.
+
+- **Decision Tree** and **Random Forest** models exhibited exceptional accuracy, with R² values of 99.57% and 99.71%, respectively, underscoring their capability to capture complex patterns in the dataset with low Mean Squared Errors (MSE).
+
+- **Support Vector Machine (SVM)**, while still performing reasonably well with an R² of 90.03%, indicated limitations compared to the other models, with a higher MSE of 7.63.
+
+These findings underscore the urgent need for continued monitoring and research into the impacts of climate change on glacial regions, emphasizing that historical data can inform future climate models and mitigation strategies.
 
 ## Data Preprocessing
 
