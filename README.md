@@ -43,7 +43,35 @@ The model development process involved selecting multiple regression algorithms,
 
 ## Model Evaluation
 
-The model evaluation was conducted using metrics such as Mean Squared Error (MSE) and R-squared (R²). These metrics provide insights into the accuracy and reliability of the models in predicting glacier mass balance changes. Each model was assessed based on its performance, with Linear Regression achieving the best results in this analysis.
+The performance of each model used to predict the mean cumulative mass balance was assessed using Mean Squared Error (MSE) and R-squared (R²) metrics. The following evaluations detail the results obtained for each model:
+
+### 1. Linear Regression
+
+- **MSE**: 5.95
+- **R²**: 92.23%
+
+The Linear Regression model demonstrates a strong performance with an R² value of 92.23%, indicating that approximately 92% of the variance in the mean cumulative mass balance can be explained by the year. This model meets the performance requirement, suggesting it is suitable for predicting glacier mass balance trends over time.
+
+### 2. Decision Tree
+
+- **MSE**: 0.33
+- **R²**: 99.57%
+
+The Decision Tree model shows exceptional accuracy with an R² of 99.57%, meaning it explains nearly all the variability in the dataset. The low MSE of 0.33 further reinforces its predictive capability. This model also meets the performance requirement, indicating its robustness in capturing the complexities in the data.
+
+### 3. Random Forest
+
+- **MSE**: 0.22
+- **R²**: 99.71%
+
+The Random Forest model outperforms the others with an R² of 99.71% and an MSE of 0.22, suggesting it provides highly accurate predictions. Its ability to account for variations in the data and minimize errors makes it an excellent choice for modeling glacier mass balance trends. This model also meets the performance requirement, reflecting its high reliability.
+
+### 4. Support Vector Machine (SVM)
+
+- **MSE**: 7.63
+- **R²**: 90.03%
+
+The Support Vector Machine model, while still performing well with an R² of 90.03%, lags behind the others with a higher MSE of 7.63. This indicates that it explains only about 90% of the variance in the dataset. Although it meets the performance requirement, it is less effective compared to the Decision Tree and Random Forest models in this specific context.
 
 ## Conclusion
 
